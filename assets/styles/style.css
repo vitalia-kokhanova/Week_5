@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+header,
+main,
+article,
+div,
+section,
+aside,
+footer,
+nav {
+  display: flex;
+}
+
+header,
+main,
+footer {
+  width: 100vw;
+}
+
+header {
+  height: 10vh;
+  background-color: rgb(232, 230, 230);
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 70vh;
+}
+
+article {
+  background-color: rgb(250, 240, 178);
+  width: 65%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section {
+  background-color: rgb(252, 224, 165);
+}
+
+aside {
+  background-color: rgb(223, 249, 207);
+  width: 35%;
+  justify-content: center;
+}
+
+footer {
+  height: 20vh;
+  background-color: rgb(232, 230, 230);
+  justify-content: space-between;
+}
+
+nav {
+  background-color: rgb(248, 247, 247);
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-basis: 25%;
+}
+
+p {
+  width: 150px;
+  height: 15px;
+  margin: 30px;
+}
+
+.firstlevel {
+  flex-direction: column;
+  height: 50%;
+}
+
+.secondlevel {
+  flex-basis: 60%;
+  justify-content: space-between;
+  border: 0;
+}
+
+.thirdsection {
+  margin: 20px;
+  flex-basis: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.more {
+  margin: 20px;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.maintitle {
+  align-self: center;
+}
