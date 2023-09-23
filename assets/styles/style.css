@@ -1,3 +1,4 @@
+/*  Общие стили для всех разделов */
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -20,12 +21,16 @@ footer {
   width: 100vw;
 }
 
+/* Стиль для шапки */
+
 header {
   height: 10vh;
   background-color: rgb(232, 230, 230);
   justify-content: center;
   align-items: center;
 }
+
+/* Стили для основной части */
 
 main {
   height: 70vh;
@@ -48,6 +53,43 @@ aside {
   justify-content: center;
 }
 
+p {
+  width: 150px;
+  height: 15px;
+  margin: 30px;
+}
+
+.maintitle {
+  align-self: center;
+}
+
+.bigbox {
+  flex-direction: column;
+  height: 50%;
+}
+
+.firstbox {
+  flex-basis: 60%;
+  justify-content: space-between;
+  border: 0;
+}
+
+.secondbox {
+  margin: 20px;
+  flex-basis: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.littlebox {
+  margin: 20px;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для футера */
+
 footer {
   height: 20vh;
   background-color: rgb(232, 230, 230);
@@ -60,39 +102,4 @@ nav {
   align-items: center;
   margin: 20px;
   flex-basis: 25%;
-}
-
-p {
-  width: 150px;
-  height: 15px;
-  margin: 30px;
-}
-
-.firstlevel {
-  flex-direction: column;
-  height: 50%;
-}
-
-.secondlevel {
-  flex-basis: 60%;
-  justify-content: space-between;
-  border: 0;
-}
-
-.thirdsection {
-  margin: 20px;
-  flex-basis: 40%;
-  justify-content: center;
-  align-items: center;
-}
-
-.more {
-  margin: 20px;
-  flex-basis: 50%;
-  justify-content: center;
-  align-items: center;
-}
-
-.maintitle {
-  align-self: center;
 }
