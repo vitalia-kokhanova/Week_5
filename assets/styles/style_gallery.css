@@ -1,0 +1,197 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(241, 225, 253);
+}
+header,
+main,
+.mainbox,
+footer,
+.logosection,
+nav,
+ul,
+.picturebox,
+.picturetitle {
+  display: flex;
+}
+
+/* Стили для шапки */
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(237, 176, 250);
+  justify-content: space-around;
+  border-bottom: 3px solid rgb(230, 139, 251);
+}
+
+div.logosection {
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+img.headerlogo {
+  box-shadow: 0 0 20px 0px rgb(134, 63, 145);
+}
+
+p.pagename {
+  text-align: center;
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+p.headername {
+  color: white;
+  text-shadow: 3px 4px 10px rgb(134, 63, 145), -3px -4px 10px rgb(216, 123, 228);
+}
+
+nav {
+  width: 70%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  width: 100%;
+  flex-direction: row;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+li a {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+li a.headerlinks {
+  color: rgb(178, 60, 208);
+}
+
+li a:link {
+  text-decoration: none;
+}
+
+li a.headerlinks:hover {
+  text-shadow: 3px 4px 20px rgb(164, 88, 175), -3px -4px 20px white;
+}
+
+/* Стили для основной части */
+
+main {
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(241, 225, 253);
+}
+
+h1 {
+  color: rgb(191, 95, 212);
+  padding: 20px;
+}
+
+.p1 {
+  color: rgb(72, 71, 71);
+  font-size: 16pt;
+  width: 700px;
+  text-align: center;
+  line-height: 1.5;
+  text-shadow: 3px 4px 5px rgb(168, 122, 188);
+  margin-bottom: 30px;
+}
+
+.p2 {
+  color: rgb(59, 58, 59);
+  font-size: 14pt;
+  width: 500px;
+  text-align: center;
+  line-height: 1.5;
+  border: 2px dashed rgb(203, 114, 245);
+  padding: 15px;
+  margin-bottom: 70px;
+  border-radius: 15px;
+}
+
+.mainbox {
+  overflow: hidden;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainbox img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.mainbox img:hover {
+  width: 330px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 15px black;
+}
+
+div.picturebox {
+  width: 400px;
+  height: 500px;
+  border: 2px dashed rgb(222, 137, 248);
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+p.picturetitle {
+  width: 300px;
+  height: 70px;
+  border: 2px dotted rgb(199, 155, 245);
+  justify-content: center;
+  align-items: center;
+  font-size: 14pt;
+  font-weight: 600;
+  color: rgba(134, 63, 145, 0);
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+p.picturetitle:hover {
+  color: rgba(134, 63, 145, 1);
+}
+
+/* Стили для футера */
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(196, 102, 217);
+  justify-content: space-around;
+  border-top: 3px solid rgb(223, 149, 243);
+  margin-top: 50px;
+}
+
+p.footername {
+  color: rgb(138, 32, 170);
+  text-shadow: 5px 5px 15px rgb(251, 240, 253),
+    -5px -5px 15px rgb(250, 229, 253);
+}
+
+img.footerlogo {
+  box-shadow: 0 0 20px 0px rgb(245, 242, 245);
+}
+
+li a.footerlinks {
+  color: rgb(249, 249, 249);
+}
+
+li a.footerlinks:hover {
+  text-shadow: 3px 4px 20px rgb(72, 8, 82), -3px -4px 20px rgb(215, 168, 235);
+}
